@@ -1,6 +1,3 @@
-Name:DIVYA R V
-Reg no: 212223100005
-
 #  Mean and variance of a discrete  distribution
 
 # Aim : 
@@ -50,9 +47,12 @@ It shows the distance of a random variable from its mean. It is calcualted as
 ![image](https://user-images.githubusercontent.com/103921593/229993174-5b67e57e-3e01-4ac4-9f83-410a932b22bf.png)
 
 # Program :
-NAME: YUVARAJ JOSHITHA
-REGISTER NUMBER :212223240189
-DEPARTMENT:AIML
+```
+NAME: DIVYA R V
+REGISTER NUMBER :212223100005
+DEPARTMENT:CSE(CS)
+```
+```
 import numpy as np
 L=[int(i) for i in input().split()]
 N=len(L);M=max(L)
@@ -75,12 +75,10 @@ SD=np.sqrt(var)
 print("The mean arrival rate is %.3f"%mean)
 print("The variance of arrival from feeder is %.3f"%var)
 print("The standard deviation of arrival deom feeder is %.3f"%SD)
-
+```
 # Output : 
 
-
-
-
+![image](https://github.com/user-attachments/assets/67af7dbb-8b6b-49b3-99c5-241fd2934827)
 
 # Results :
 The mean and variance of arrivals of objects from feeder using probability distribution are calculated.
